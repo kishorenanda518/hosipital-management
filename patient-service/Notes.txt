@@ -1,0 +1,6 @@
+
+//kafka topic subscribe
+docker exec -it kafka kafka-console-consumer.sh --bootstrap-server localhost:9094 --topic patient --from-beginning
+
+//kafka offset
+C:\Users\nanda royality>docker exec -it kafka kafka-consumer-groups.sh --bootstrap-server localhost:9094 --describe --all-groups
